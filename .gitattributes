@@ -37,6 +37,14 @@
 *.ico binary
 *.pdf binary
 
+# Ensure images are excluded from diffing
+*.png -diff
+*.jpg -diff
+*.jpeg -diff
+*.gif -diff
+*.ico -diff
+*.pdf -diff
+
 # Exclude temporary or log files from export
 *.log export-ignore
 *.tmp export-ignore
