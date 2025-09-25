@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Launching the Deaf Ministry | Gitimbine United Methodist Church</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav id="topbar" class="topbar">
+        <span class="topbar-title">Gitimbine United Methodist Church</span>
+        <ul class="topbar-links">
+            <li class="topbar-link"><a href="home page.html">Home</a></li>
+            <li class="topbar-link"><a href="about.html">About</a></li>
+            <li class="topbar-link"><a href="ministries.html">Ministries</a></li>
+            <li class="topbar-link"><a href="events.html">Events</a></li>
+            <li class="topbar-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Collapsible Sidebar Dashboard -->
+    <nav id="sidebar" class="sidebar collapsed">
+        <div class="sidebar-toggle" id="sidebarToggle"> </div>
+        <ul class="sidebar-widgets">
+            <li class="widget-icon" title="Attendance"><span>📊</span></li>
+            <li class="widget-icon" title="Events"><span>📅</span></li>
+            <li class="widget-icon" title="Volunteers"><span>🤝</span></li>
+            <li class="widget-icon" title="Donations"><span>💰</span></li>
+            <li class="widget-icon" title="Announcements"><span>📢</span></li>
+        </ul>
+    </nav>
+    <!-- Front Cover -->
+    <section class="front-cover">
+        <div class="cover-header">
+            <img src="From net/6.jpg" alt="Church Logo" class="church-logo">
+            <h1>Gitimbine United Methodist Church</h1>
+        </div>
+        <div class="cover-title">
+            <h2>Launching the Deaf Ministry</h2>
+            <h3>Empowering and Connecting Our Deaf Community</h3>
+        </div>
+        <div class="cover-details">
+            <p>Date: [Insert Date]</p>
+            <p>Location: [Insert Location]</p>
+        </div>
+        <!-- Optional background image or welcoming photo -->
+        <img src="From net\1.webp" alt="Church Gathering" class="cover-photo">
+    </section>
+
+    <!-- Inside Panels -->
+    <main>
+        <section class="panel welcome-panel">
+            <h2>Welcome Message</h2>
+            <img src="From net\2.avif" alt="Welcoming Church Members">
+            <p>
+                Dear Brothers and Sisters,<br><br>
+                We are excited to announce the launch of our Deaf Ministry at Gitimbine United Methodist Church! Our goal is to create a welcoming, inclusive environment where deaf and hard-of-hearing individuals can experience the love of Christ, grow in faith, and participate fully in our church community.
+            </p>
+        </section>
+
+        <section class="panel about-panel">
+            <h2>About the Deaf Ministry</h2>
+            <img src="From net\3.jpg" alt="Sign Language Interpreters">
+            <ul>
+                <li>Sign language interpretation during services</li>
+                <li>Special Bible study sessions tailored for the deaf</li>
+                <li>Fellowship events and outreach programs</li>
+                <li>Support and counseling for deaf members and visitors</li>
+            </ul>
+            <h3>Why a Deaf Ministry?</h3>
+            <p>
+                Because everyone deserves to hear the good news of Jesus Christ. This ministry ensures that deaf and hard-of-hearing persons are embraced as vital members of our church family.
+            </p>
+        </section>
+
+        <section class="panel join-panel">
+            <h2>Join Us!</h2>
+            <img src="Images/WhatsApp Image 2025-09-10 at 12.40.43_9a85629c.jpg" alt="Church Volunteers">
+            <p>
+                Are you interested in being part of the Deaf Ministry?
+            </p>
+            <ul>
+                <li>Sign language interpreters</li>
+                <li>Ushers and volunteers</li>
+                <li>Bible study leaders</li>
+                <li>Outreach coordinators</li>
+            </ul>
+            <h3>Contact Us</h3>
+            <p>
+                Name: [Insert Contact Name]<br>
+                Phone: [Insert Phone Number]<br>
+                Email: [Insert Email Address]<br>
+                Location of Meetings: [Specify location]
+            </p>
+        </section>
+    </main>
+
+    <!-- Interactive Dashboard Section -->
+     
+    <section class="dashboard">
+    <h2>Church Dashboard</h2>
+    <div class="dashboard-tabs">
+        <button class="dashboard-tab active" data-tab="attendance">Attendance</button>
+        <button class="dashboard-tab" data-tab="events">Events</button>
+        <button class="dashboard-tab" data-tab="volunteers">Volunteers</button>
+        <button class="dashboard-tab" data-tab="donations">Donations</button>
+        <button class="dashboard-tab" data-tab="announcements">Announcements</button>
+    </div>
+    <div class="dashboard-tab-content" id="tab-attendance">
+        <div class="dashboard-card" id="attendance-card">
+            <h3>Attendance</h3>
+            <div class="dashboard-chart" id="attendance-chart">
+                <canvas id="attendanceChartCanvas" width="220" height="120"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="dashboard-tab-content" id="tab-events" style="display:none;">
+        <div class="dashboard-card" id="events-card">
+            <h3>Upcoming Events</h3>
+            <ul id="events-list">
+                <li>[Event Placeholder]</li>
+            </ul>
+        </div>
+    </div>
+    <div class="dashboard-tab-content" id="tab-volunteers" style="display:none;">
+        <div class="dashboard-card" id="volunteers-card">
+            <h3>Volunteer Sign-ups</h3>
+            <div id="volunteer-signup">[Signup Placeholder]</div>
+        </div>
+    </div>
+    <div class="dashboard-tab-content" id="tab-donations" style="display:none;">
+        <div class="dashboard-card" id="donations-card">
+            <h3>Donations</h3>
+            <div id="donation-stats">[Donation Stats Placeholder]</div>
+        </div>
+    </div>
+    <div class="dashboard-tab-content" id="tab-announcements" style="display:none;">
+        <div class="dashboard-card" id="announcements-card">
+            <h3>Announcements</h3>
+            <div id="announcements">[Announcement Placeholder]</div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Back Cover -->
+    <section class="back-cover">
+        <h2>Our Mission & Vision</h2>
+        <img src="Images/cross-dove.jpg" alt="Symbolic Church Image">
+        <div class="mission-vision">
+            <h3>Mission</h3>
+            <p>
+                To nurture and equip believers through discipleship, education, and spiritual growth, fostering a vibrant community that reflects Christ’s love.
+            </p>
+            <h3>Vision</h3>
+            <p>
+                To be a church where every member is committed to deepening their faith, actively serving others, and making disciples of all nations, empowered by the Holy Spirit.
+            </p>
+        </div>
+        <div class="programs">
+            <h3>Programs at Gitimbine UMC</h3>
+            <ul>
+                <li>
+                    <strong>Discipleship Ministry:</strong> Bible studies, mentorship, leadership workshops.
+                    <img src="Images\WhatsApp Image 2025-09-10 at 12.40.43_3367af88.jpg" alt="Bible Study Group">
+                </li>
+                <li>
+                    <strong>Bible School:</strong> Classes for all ages, VBS, theological courses.
+                    <img src="Images\WhatsApp Image 2025-09-10 at 12.40.43_a5c308a1.jpg" alt="Bible Class">
+                </li>
+                <li>
+                    <strong>Community Outreach & Events:</strong> Evangelism, fellowship, service projects.
+                    <img src="Images\WhatsApp Image 2025-09-10 at 13.01.46_92cb435c.jpg" alt="Community Outreach">
+                </li>
+            </ul>
+        </div>
+        <div class="call-to-action">
+            <h3>Come Worship with Us!</h3>
+            <p>Join us in celebrating and growing together as a community of faith.</p>
+            <div class="social-media">
+                <!-- Social Media Icons -->
+                <a href="[Facebook URL]"><img src="Images/facebook-icon.png" alt="Facebook"></a>
+                <a href="[Twitter URL]"><img src="Images/twitter-icon.png" alt="Twitter"></a>
+                <a href="[Website URL]"><img src="Images/website-icon.png" alt="Website"></a>
+            </div>
+            <!-- Optional QR code -->
+            <img src="Images/qr-code.png" alt="Church Website QR Code">
+        </div>
+        <!-- Optional congregation photo -->
+        <img src="Images/congregation.jpg" alt="Congregation Worship">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gitimbine United Methodist Church. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

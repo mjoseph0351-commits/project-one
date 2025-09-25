@@ -1,0 +1,291 @@
+THE MAN WITH A VISION
+
+BASIC INFORMATION ABOUT THE ORIGIN OF THE MINISTRY
+
+In the year 1989, "A burden was laid by the Lord in my heart for the young people". The burden had become heavier as i see the addiction of drugs, alcoholism, misery caused to parents and the spiritual need of the young people. Through fervent prayer a vision was given to reach out to young people, particularly in the North Eastern region of India with a message of Salvation through Christ. However, it took 18 years to establish Youth Harvest Ministry on 18th August 2009, as an independent faith based ministry.
+
+God the Holy Spirit has inspired the name of the ministry as YOUTH HARVEST MINISTRY based on the promised word of God, John 4: 35-36 "...see how they are already white for the Harvest…, for he is gathering fruit unto eternal life".  The voice was clear from the Lord, as me and my wife were fasting and waiting on the Lord, "Disciple my Children, whom I harvest them. Teach them to follow me, equip them to witness me and to live an overcoming, abundant life". 
+
+Since the voice continued to speak into my heart for the last four years, with much prayer and assurance from the Lord, harvest LEADERSHIP and DISCIPLESHIP TRAINING INSTITUTE was born under the umbrella of Youth Harvest Ministry.
+
+As the name clearly suggest, it will help, train and equip young people to live life to the fullness and to continue walking with the Lord without backsliding.
+
+BASIC INFORMATION ABOUT YHM
+
+Youth Harvest Ministry is registered under the Government of Nagaland, Gov/Reg.No 6177. This ministry came into existence in the year 2009, according to God's Vision through a humble servant of God Rev. Kilang Jamir.
+
+Under the divine direction Youth Harvest Ministry runs Harvest Leadership & Discipleship Training Institute (HLDTI), which trains and equips believers to walk victoriously and witness Christ effectively.
+
+WHAT IS HARVEST LEADERSHIP & DISCIPLESHIP TRAINING INSTITUTE?
+
+Harvest Leadership & Discipleship Training Institute is an intensive One Year Diploma course. Every subject taught in the institution is thoroughly furnished Biblically. Examination is conducted at the completion of every subject.
+
+Every year training session begins from 8th February and completes the course in the 2nd week of December. At the completion of the course, students are honoured with a certificate and a mark sheet during the graduation programme.
+
+ACTIVITIES 
+Harvest Leadership & Discipleship Training Institute is backed with lot of activities which boost individual learning besides their class learning. Activities include both physical and mental involvement such as: 
+
+Morning Devotion: Our first activity begins with the morning devotion, meditating and reading the word of God. This brings more insights of the word of God to an individual. Hence also brings spiritual growth.
+Social work: Light works are done every day so that the students learn the importance of work and dignity of labor.
+Leading Praise and Worship: Students are divided into different groups and they practically involved in learning songs and later they are allowed to lead the worship when they are equipped. This is one activity which also helps a person to discover their gifts and talents and to use it for the glory of God.
+Games and Sports: The students are encouraged to participate in games and sports as they learn the importance of team work and promote mental & spiritual well-being.
+Evening & Sunday worship: This is one of the most important aspects of our activities, where at the close of the day and Sunday we come together and worship in the spirit. Restoring and feeding our spiritual life with the word of God.
+Children Ministry: Every Sunday Morning, staff and students minister to the Children who comes from different background and communities.
+Practical Outreach Ministry: Staff and Students often go out as a team for Church Revival meetings and other practical field Ministry.
+
+PURPOSE
+
+To lead young people to Christ for personal Salvation.
+To Disciple believers, to be victorious overcomers in every aspect of their lives.
+To equip and assist young people for evangelism.
+To inculcate in individual an ever deepener hunger to know Christ through the study of the word of God and corporate worship.
+To equip the young people to be an instrument in bringing about a revival in the Church and in society.
+
+ADDRESS AND CONTACT 
+
+YOUTH HARVEST MINISTRY, Shekina    cove, Naga United Village, 4th Mile.
+Dimapur, 797115,Nagaland.
+Contact : +91 9862 4835 57,9089354113
+
+
+
+
+[text](about.html)
+Original build about page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color:rgba(0, 121, 107, 0.85);
+            border-bottom: 1px solid #ccc;
+        }
+
+        .topbar-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .topbar-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .topbar-link a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .topbar-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav id="topbar" class="topbar">
+        <span class="topbar-title">Gitimbine United Methodist Church</span>
+        <ul class="topbar-links">
+            <li class="topbar-link"><a href="home page.html">Home</a></li>
+            <li class="topbar-link"><a href="about.html">About</a></li>
+            <li class="topbar-link"><a href="ministries.html">Ministries</a></li>
+            <li class="topbar-link"><a href="events.html">Events</a></li>
+            <li class="topbar-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main style="padding: 80px 24px 24px 24px;">
+        <h1>About Us</h1>
+        <p>Welcome to Gitimbine United Methodist Church. Learn more about our history, mission, and vision here.</p>
+    </main>
+    <header>
+        <h1>The Man with a Vision</h1>
+    </header>
+    <main>
+        
+        <section>
+            <h2>Basic Information About the Origin of the Ministry</h2>
+            <p>In the year 1989, "A burden was laid by the Lord in my heart for the young people". The burden had become heavier as I see the addiction of drugs, alcoholism, misery caused to parents and the spiritual need of the young people. Through fervent prayer a vision was given to reach out to young people, particularly in the North Eastern region of India with a message of Salvation through Christ. However, it took 18 years to establish Youth Harvest Ministry on 18th August 2009, as an independent faith-based ministry.</p>
+            <p>God the Holy Spirit has inspired the name of the ministry as YOUTH HARVEST MINISTRY based on the promised word of God, John 4: 35-36 "...see how they are already white for the Harvest…, for he is gathering fruit unto eternal life". The voice was clear from the Lord, as me and my wife were fasting and waiting on the Lord, "Disciple my Children, whom I harvest them. Teach them to follow me, equip them to witness me and to live an overcoming, abundant life".</p>
+            <p>Since the voice continued to speak into my heart for the last four years, with much prayer and assurance from the Lord, harvest LEADERSHIP and DISCIPLESHIP TRAINING INSTITUTE was born under the umbrella of Youth Harvest Ministry.</p>
+            <p>As the name clearly suggests, it will help, train and equip young people to live life to the fullness and to continue walking with the Lord without backsliding.</p>
+        </section>
+        <section>
+            <h2>Basic Information About YHM</h2>
+            <p>Youth Harvest Ministry is registered under the Government of Nagaland, Gov/Reg.No 6177. This ministry came into existence in the year 2009, according to God's Vision through a humble servant of God Rev. Kilang Jamir.</p>
+            <p>Under the divine direction Youth Harvest Ministry runs Harvest Leadership & Discipleship Training Institute (HLDTI), which trains and equips believers to walk victoriously and witness Christ effectively.</p>
+        </section>
+        <section>
+            <h2>What is Harvest Leadership & Discipleship Training Institute?</h2>
+            <p>Harvest Leadership & Discipleship Training Institute is an intensive One Year Diploma course. Every subject taught in the institution is thoroughly furnished Biblically. Examination is conducted at the completion of every subject.</p>
+            <p>Every year training session begins from 8th February and completes the course in the 2nd week of December. At the completion of the course, students are honoured with a certificate and a mark sheet during the graduation programme.</p>
+        </section>
+        <section>
+            <h2>Activities</h2>
+            <ul>
+                <li><strong>Morning Devotion:</strong> Meditating and reading the word of God to bring spiritual growth.</li>
+                <li><strong>Social Work:</strong> Light works to teach the importance of work and dignity of labor.</li>
+                <li><strong>Leading Praise and Worship:</strong> Students learn songs and lead worship to discover their gifts and talents.</li>
+                <li><strong>Games and Sports:</strong> Encouraging teamwork and promoting mental & spiritual well-being.</li>
+                <li><strong>Evening & Sunday Worship:</strong> Restoring and feeding spiritual life with the word of God.</li>
+                <li><strong>Children Ministry:</strong> Ministering to children from different backgrounds and communities.</li>
+                <li><strong>Practical Outreach Ministry:</strong> Church Revival meetings and other practical field ministry.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Purpose</h2>
+            <ul>
+                <li>To lead young people to Christ for personal Salvation.</li>
+                <li>To Disciple believers, to be victorious overcomers in every aspect of their lives.</li>
+                <li>To equip and assist young people for evangelism.</li>
+                <li>To inculcate in individuals an ever-deepening hunger to know Christ through the study of the word of God and corporate worship.</li>
+                <li>To equip the young people to be an instrument in bringing about a revival in the Church and in society.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Address and Contact</h2>
+            <p>YOUTH HARVEST MINISTRY, Shekina Cove, Naga United Village, 4th Mile, Dimapur, 797115, Nagaland.</p>
+            <p>Contact: +91 9862 4835 57, 9089354113</p>
+        </section>
+    </main>
+</body>
+</html>
+
+<section class="front-cover">
+        <div class="cover-header">
+            <img src="From net/6.jpg" alt="Church Logo" class="church-logo">
+            <h1>Youth Discipleship Ministry</h1>
+        </div>
+        <div class="cover-title">
+            <section>
+                <h2>Origin of the Ministry</h2>
+                <p>In the year 1989, "A burden was laid by the Lord in my heart for the young people". The burden had become heavier as I see the addiction of drugs, alcoholism, misery caused to parents and the spiritual need of the young people. Through fervent prayer a vision was given to reach out to young people, particularly in the North Eastern region of India with a message of Salvation through Christ. However, it took 18 years to establish Youth Harvest Ministry on 18th August 2009, as an independent faith-based ministry.</p>
+                <p>God the Holy Spirit has inspired the name of the ministry as YOUTH HARVEST MINISTRY based on the promised word of God, John 4: 35-36 "...see how they are already white for the Harvest…, for he is gathering fruit unto eternal life". The voice was clear from the Lord, as me and my wife were fasting and waiting on the Lord, "Disciple my Children, whom I harvest them. Teach them to follow me, equip them to witness me and to live an overcoming, abundant life".</p>
+                <p>Since the voice continued to speak into my heart for the last four years, with much prayer and assurance from the Lord, harvest LEADERSHIP and DISCIPLESHIP TRAINING INSTITUTE was born under the umbrella of Youth Harvest Ministry.</p>
+                <p>As the name clearly suggests, it will help, train and equip young people to live life to the fullness and to continue walking with the Lord without backsliding.</p>
+             </section>
+        <section>
+            <h2>Basic Information About YHM</h2>
+            <p>Youth Harvest Ministry is registered under the Government of Nagaland, Gov/Reg.No 6177. This ministry came into existence in the year 2009, according to God's Vision through a humble servant of God Rev. Kilang Jamir.</p>
+            <p>Under the divine direction Youth Harvest Ministry runs Harvest Leadership & Discipleship Training Institute (HLDTI), which trains and equips believers to walk victoriously and witness Christ effectively.</p>
+        </section>
+        <section>
+            <h2>What is Harvest Leadership & Discipleship Training Institute?</h2>
+            <p>Harvest Leadership & Discipleship Training Institute is an intensive One Year Diploma course. Every subject taught in the institution is thoroughly furnished Biblically. Examination is conducted at the completion of every subject.</p>
+            <p>Every year training session begins from 8th February and completes the course in the 2nd week of December. At the completion of the course, students are honoured with a certificate and a mark sheet during the graduation programme.</p>
+        </section>           
+        </div>
+        <div class="cover-details">
+            <p>Date: [Insert Date]</p>
+            <p>Location: [Insert Location]</p>
+        </div>
+        <!-- Optional background image or welcoming photo -->
+        <img src="From net\1.webp" alt="Church Gathering" class="cover-photo">
+  </section>
+
+    bible school
+    deaf ministry
+    YOuth discipleship ministry
+<main style="padding: 80px 24px 24px 24px;">
+        <h1>Our Ministries</h1>
+        <p>Explore the various ministries at Gitimbine United Methodist Church, including youth, outreach, discipleship, and more.</p>
+        <section>
+            <h2>Youth Ministry</h2>
+            <p>Engaging young people in faith through activities, worship, and community service.</p>
+        </section>
+         <section>
+            <h2>Basic Information About the Origin of the Ministry</h2>
+            <p>In the year 1989, "A burden was laid by the Lord in my heart for the young people". The burden had become heavier as I see the addiction of drugs, alcoholism, misery caused to parents and the spiritual need of the young people. Through fervent prayer a vision was given to reach out to young people, particularly in the North Eastern region of India with a message of Salvation through Christ. However, it took 18 years to establish Youth Harvest Ministry on 18th August 2009, as an independent faith-based ministry.</p>
+            <p>God the Holy Spirit has inspired the name of the ministry as YOUTH HARVEST MINISTRY based on the promised word of God, John 4: 35-36 "...see how they are already white for the Harvest…, for he is gathering fruit unto eternal life". The voice was clear from the Lord, as me and my wife were fasting and waiting on the Lord, "Disciple my Children, whom I harvest them. Teach them to follow me, equip them to witness me and to live an overcoming, abundant life".</p>
+            <p>Since the voice continued to speak into my heart for the last four years, with much prayer and assurance from the Lord, harvest LEADERSHIP and DISCIPLESHIP TRAINING INSTITUTE was born under the umbrella of Youth Harvest Ministry.</p>
+            <p>As the name clearly suggests, it will help, train and equip young people to live life to the fullness and to continue walking with the Lord without backsliding.</p>
+        </section>
+    </main>
+     <img src="From net\1.webp" alt="Church Gathering" class="cover-photo">
+  
+  Background of the Deaf Ministry at Gitimbine United Methodist Church
+
+Introduction
+
+The Gitimbine United Methodist Church, situated in Meru town- kenya, has always been committed to serving its community inclusively and compassionately. In recent years, there has been a noticeable increase in the number of deaf and hard-of-hearing individuals participating in church activities and within the broader community. Recognizing the importance of accessible spiritual ministry for all members, the church embarked on a journey to establish a dedicated Deaf Ministry—aimed at fostering inclusivity, spiritual growth, and active participation of deaf and hard-of-hearing persons in church life.
+
+Origins and Motivation
+
+The idea to start a Deaf Ministry was initiated by Joel, a dedicated member of the congregation, at the beginning of 2025. Joel’s passion for inclusivity and his awareness of the challenges faced by deaf and hard-of-hearing individuals in accessing spiritual resources motivated him to propose this initiative. His desire was rooted in the belief that everyone deserves an opportunity to experience God’s love and community regardless of their hearing ability.
+
+Discussion and Planning
+
+Following Joel’s proposal, the idea was brought to the attention of the church leadership and the church council. The council members recognized the significance of the initiative, especially given the increasing population of deaf and hard-of-hearing persons in the church and surrounding community. A series of discussions and planning sessions ensued, involving stakeholders such as church leaders, members of the congregation, and individuals from the deaf community to understand their specific needs and expectations.
+
+These deliberations focused on the development of a comprehensive plan that would include sign language interpretation, deaf-friendly communication strategies, outreach programs, and training for church volunteers and staff. The goal was to ensure that the ministry would be sustainable, impactful, and truly inclusive.
+
+Approval and Formal Establishment
+
+After thorough evaluation and strategic planning, the church council officially approved the establishment of the Deaf Ministry in April 2025. This approval marked a significant milestone, demonstrating the church’s commitment to inclusivity and social justice. The ministry was tasked with creating programs that would foster spiritual growth, community building, and advocacy for deaf and hard-of-hearing individuals.
+
+Objectives and Vision
+
+The primary objective of the Deaf Ministry is to create a welcoming environment where deaf and hard-of-hearing persons can participate fully in church services, fellowship activities, and spiritual education. The ministry aims to:
+
+- Provide sign language interpretation during services and events.
+- Offer deaf-friendly Bible study groups and prayer meetings.
+- Conduct outreach programs to educate and raise awareness about deafness and inclusivity in the community.
+- Train church members and leaders on effective communication strategies with deaf persons.
+- Advocate for the rights and inclusion of deaf and hard-of-hearing individuals within the church and the broader community.
+
+Our vision is to build a church community where every individual, regardless of their hearing ability, feels valued, included, and empowered to grow in faith and service.
+
+
+
+<! --to the bout page-->
+About Gitimbine United Methodist Church
+
+Welcome to Gitimbine United Methodist Church,a vibrant and growing congregation rooted in Meru Town, Kenya. Since our establishment in 2008, we have been dedicated to spreading the love of Christ, nurturing spiritual growth, and serving our community with compassion and faith.
+
+Our Heritage and Affiliation 
+Gitimbine UMC falls under the Mount Kenya District within the Kenya-Ethiopia Annual Conference of the Methodist Church. Our church is committed to living out the Christian faith through worship, fellowship, service, and outreach initiatives that transform lives and communities.
+
+Our Ministries 
+We believe in holistic ministry that addresses spiritual, social, and community needs. To this end, we have established specialized ministries:
+
+- Deaf Ministry: Focused on serving members who are deaf or hard-of-hearing, ensuring they experience God's love and participate fully in church life.  
+- Youth Ministry: Dedicated to empowering young people through faith-based programs, mentorship, leadership training, and community engagement, nurturing the next generation of Christian leaders.
+
+Educational and Training Programs 
+To equip believers for effective service and leadership, we established the UMC Meru School of Theological Studies. This Bible school offers comprehensive theological education and spiritual formation, preparing students for ministry and leadership roles.
+
+In partnership with Breakthrough International Bible University, we currently offer diploma and degree programs in theology. These academic programs aim to deepen biblical understanding and enhance practical ministry skills among our students, fostering a well-equipped church workforce committed to service.
+
+Our Mission  
+“To nurture and develop a Christ-centered community that promotes spiritual growth, inclusivity, and service, equipping believers to impact their communities with the love of Christ.”
+
+Our Vision 
+“To be a vibrant, inclusive, and transformative church that champions faith, empowerment, and social renewal within Meru Town and beyond, inspiring lives to be changed through the Gospel.”
+
+Core Values
+- Faith and Worship  
+- Community and Fellowship  
+- Service and Outreach  
+- Education and Growth  
+- Inclusivity and Diversity
+
+Our Commitment 
+At Gitimbine UMC, we are committed to creating an environment where everyone feels welcomed, valued, and empowered to grow in faith and serve others. Whether you are new to faith or seeking a spiritual home, you will find a supportive community ready to walk alongside you.
+
+Contact Us 
+We would love to hear from you! Feel free to reach out through the following contact details:
+
+- Phone: 0723 659 555 / 0756 817 001  
+- Email: umcgitimbine@gmail.com
+
+Come and join us as we worship, learn, and serve together. We look forward to welcoming you to our church family!
