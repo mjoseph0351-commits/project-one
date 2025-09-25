@@ -1,2 +1,46 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Normalize all text files and ensure consistent line endings
+* text=auto
+
+# Specific rules for common file types
+
+# Treat Markdown files as text
+*.md text
+
+# Treat JSON files as text
+*.json text
+
+# Treat YAML files as text
+*.yml text
+*.yaml text
+
+# Treat shell scripts as text with LF endings
+*.sh text eol=lf
+
+# Treat Python files as text
+*.py text
+
+# Treat JavaScript and TypeScript files as text
+*.js text
+*.ts text
+
+# Treat CSS and HTML files as text
+*.css text
+*.html text
+
+# Treat binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Exclude temporary or log files from export
+*.log export-ignore
+*.tmp export-ignore
+
+# Add custom rules for specific directories or files if needed
+# /docs/* text
+# /config/*.json text
