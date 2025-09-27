@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build:jekyll": "jekyll build --source docs --destination _site"
+  }
+}

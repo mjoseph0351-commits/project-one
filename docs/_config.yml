@@ -1,0 +1,13 @@
+title: My Jekyll Site
+description: A simple Jekyll site hosted on GitHub Pages
+baseurl: "/docs" # Adjust this if your site is hosted in a subdirectory
+url: "https://<your-github-username>.github.io" # Replace with your GitHub Pages URL
+
+# Exclude files and folders from the build
+exclude:
+  - node_modules
+  - .gitignore
+  - .gitattributes
+
+# Markdown settings
+markdown: kramdown
