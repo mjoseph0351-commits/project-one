@@ -1,5 +1,8 @@
 {
   "scripts": {
-    "build:jekyll": "jekyll build --source docs --destination _site"
+    "build:jekyll": "jekyll build --source docs --destination _site",
+    "serve:jekyll": "jekyll serve --source docs --destination _site",
+    "clean:jekyll": "rm -rf _site",
+    "start": "npm run clean:jekyll && npm run serve:jekyll"
   }
 }
