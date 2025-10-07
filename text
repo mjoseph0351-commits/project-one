@@ -5,32 +5,57 @@
             <img src="images/net/6.jpg" alt="Symbolic Church Image">
             <div class="mission-vision">
                 <section>
-                    <h3>Activities</h3>
-                    <ul>
-                        <li><strong>Morning Devotion:</strong> Meditating and reading the word of God to bring spiritual growth.</li>
-                        <li><strong>Social Work:</strong> Light works to teach the importance of work and dignity of labor.</li>
-                        <li><strong>Leading Praise and Worship:</strong> Students learn songs and lead worship to discover their gifts and talents.</li>
-                        <li><strong>Games and Sports:</strong> Encouraging teamwork and promoting mental & spiritual well-being.</li>
-                        <li><strong>Evening & Sunday Worship:</strong> Restoring and feeding spiritual life with the word of God.</li>
-                        <li><strong>Children Ministry:</strong> Ministering to children from different backgrounds and communities.</li>
-                        <li><strong>Practical Outreach Ministry:</strong> Church Revival meetings and other practical field ministry.</li>
-                    </ul>
+                <h3>Activities</h3>
+                <p>
+                Welcome to Gitimbine United Methodist Church, a vibrant and growing congregation rooted in Meru Town, Kenya.
+                </p>
+                <p>
+                    Since our establishment in 2008, we have been dedicated to spreading the love of Christ, nurturing spiritual growth, and serving our community with compassion and faith.
+                </p>
+                </section>
+
+                <section>
+                    <h3>Our Heritage and Affiliation</h3>
+                <p>
+                    Gitimbine UMC falls under the Mount Kenya District within the Kenya-Ethiopia Annual Conference of the Methodist Church.
+                </p>
+                <p>
+                    Our church is committed to living out the Christian faith through worship, fellowship, service, and outreach initiatives that transform lives and communities.
+                </p>
+
+                </section>
+
+                <section>
+                    <h3>Our Ministries  </h3>
+                    <p>
+                        We believe in holistic ministry that addresses spiritual, social, and community needs. To this end, we have established specialized ministries:
+                    </p>
+                </section>
+                <section>
+                    <h3>Education and Training Programmes</h3>
+                    <p> To equip believers for effective service and leadership, we established the UMC Meru School of Theological Studies. This Bible school offers comprehensive theological education and spiritual formation, preparing students for ministry and leadership roles. </p>
+                    <p> 
+                        In partnership with Breakthrough International Bible University, we currently offer diploma and degree programs in theology. These academic programs aim to deepen biblical understanding and enhance practical ministry skills among our students, fostering a well-equipped church workforce committed to service.
+                    </p>
+                <section>
+                    <h3>Our Values</h3>
+                    <p>
+                        We uphold the values of love, integrity, and service as we seek to follow Christ's example.
+                    </p>
+                </section>
+                    <h3>Vision</h3>
+                    <p>
+                        To be a church where every member is committed to deepening their faith, actively serving others, and making disciples of all nations, empowered by the Holy Spirit.
+                    </p>
+                </section>
+                <h3> more Information  </h3>
+                <p> 
+                    Deaf Ministry: Focused on serving members who are deaf or hard-of-hearing, ensuring they experience God's love and participate fully in church life. 
+                </p>
+                <p>
+                    Youth Ministry: Dedicated to empowering young people through faith-based programs, mentorship, leadership training, and community engagement, nurturing the next generation of Christian leaders.
+
+                </p>
                 </section>
             </div>
- </section>
- <main style="padding: 80px 24px 24px 24px;">
-            <h1>Events</h1>
-            <p>Stay up to date with upcoming events at Gitimbine United Methodist Church.</p>
-            <section>
-                <h2>Activities</h2>
-                <ul>
-                    <li><strong>Morning Devotion:</strong> Meditating and reading the word of God to bring spiritual growth.</li>
-                    <li><strong>Social Work:</strong> Light works to teach the importance of work and dignity of labor.</li>
-                    <li><strong>Leading Praise and Worship:</strong> Students learn songs and lead worship to discover their gifts and talents.</li>
-                    <li><strong>Games and Sports:</strong> Encouraging teamwork and promoting mental & spiritual well-being.</li>
-                    <li><strong>Evening & Sunday Worship:</strong> Restoring and feeding spiritual life with the word of God.</li>
-                    <li><strong>Children Ministry:</strong> Ministering to children from different backgrounds and communities.</li>
-                    <li><strong>Practical Outreach Ministry:</strong> Church Revival meetings and other practical field ministry.</li>
-                </ul>
-            </section>
-    </main>
+        </section>
