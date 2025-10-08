@@ -701,3 +701,33 @@ footer {
     margin: 20px auto; /* Center the section with some margin */
     max-width: 1200px; /* Optional: Limit the width for better readability */
 }
+
+/* Map Button Styles */
+    .info-container {
+      position: relative;
+      padding: 20px;
+      border: 1px solid #ccc;
+      max-width: 400px;
+      margin: 50px auto;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+
+    .info-text {
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #333;
+    }
+    .map-button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #00796b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .map-button:hover {
+      background-color: #004d40;
+    } 
