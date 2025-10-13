@@ -59,3 +59,119 @@
                 </section>
             </div>
         </section>
+
+
+        EXTRA FROM MINISTRYS PAGE
+         <sction
+                <h2>Address and Contact</h2
+                <p>YOUTH HARVEST MINISTRY, Shekina Cove, Naga United Village, 4th Mile, Dimapur, 797115, Nagaland.</p
+                <p>Contact: +91 9862 4835 57, 9089354113</p
+
+        <div class="cover-details">
+            <p>Date: [Insert Date]</p>
+            <p>Location: [Insert Location]</p>
+        </div>
+
+        from about page
+         <main>
+
+        <section class="back-cover">
+            <h2> Who are the Gitimbine United Methodist Church?</h2>
+
+            <h2>Story time</h2>
+            <img src="images/net/6.jpg" alt="Symbolic Church Image">
+            <div class="mission-vision">
+                <section>
+                <h3>interpretation</h3>
+                <p>
+                Welcome to Gitimbine United Methodist Church, a vibrant and growing congregation rooted in Meru Town, Kenya.
+                </p>
+                <p>
+                    Since our establishment in 2008, we have been dedicated to spreading the love of Christ, nurturing spiritual growth, and serving our community with compassion and faith.
+                </p>
+                </section>
+
+                <section>
+                    <h3>Our Heritage and Affiliation</h3>
+                <p>
+                    Gitimbine UMC falls under the Mount Kenya District within the Kenya-Ethiopia Annual Conference of the Methodist Church.
+                </p>
+                <p>
+                    Our church is committed to living out the Christian faith through worship, fellowship, service, and outreach initiatives that transform lives and communities.
+                </p>
+
+                </section>
+
+                <section>
+                    <h3>Our Ministries  </h3>
+                    <p>
+                        We believe in holistic ministry that addresses spiritual, social, and community needs. To this end, we have established specialized ministries:
+                    </p>
+                </section>
+                <section>
+                    <h3>Education and Training Programmes</h3>
+                    <p> To equip believers for effective service and leadership, we established the UMC Meru School of Theological Studies. This Bible school offers comprehensive theological education and spiritual formation, preparing students for ministry and leadership roles. </p>
+                    <p> 
+                        In partnership with Breakthrough International Bible University, we currently offer diploma and degree programs in theology. These academic programs aim to deepen biblical understanding and enhance practical ministry skills among our students, fostering a well-equipped church workforce committed to service.
+                    </p>
+                <section>
+                    <h3>Our Values</h3>
+                    <p>
+                        We uphold the values of love, integrity, and service as we seek to follow Christ's example.
+                    </p>
+                </section>
+                    <h3>Vision</h3>
+                    <p>
+                        To be a church where every member is committed to deepening their faith, actively serving others, and making disciples of all nations, empowered by the Holy Spirit.
+                    </p>
+                </section>
+                <h3> more Information  </h3>
+                <p> 
+                    Deaf Ministry: Focused on serving members who are deaf or hard-of-hearing, ensuring they experience God's love and participate fully in church life. 
+                </p>
+                <p>
+                    Youth Ministry: Dedicated to empowering young people through faith-based programs, mentorship, leadership training, and community engagement, nurturing the next generation of Christian leaders.
+
+                </p>
+                </section>
+            </div>
+        </section>
+
+        <section class="back-cover">
+            <h2>Our Mission & Vision</h2>
+            <img src="images/net/6.jpg" alt="Symbolic Church Image">
+            <div class="mission-vision">
+                <h3>Mission</h3>
+                <p>
+                    To nurture and equip believers through discipleship, education, and spiritual growth, fostering a vibrant community that reflects Christ’s love.
+                </p>
+                <h3>Vision</h3>
+                <p>
+                    To be a church where every member is committed to deepening their faith, actively serving others, and making disciples of all nations, empowered by the Holy Spirit.
+                </p>
+            </div>
+
+
+            <div class="call-to-action">
+                <h3>Come Worship with Us!</h3>
+                <p>Join us in celebrating and growing together as a community of faith.</p>
+                <div class="social-media">
+                    <!-- Social Media Icons -->
+                    <a href="[Facebook URL]"><img src="images/net/fb.png" alt="Facebook"></a>
+                    <a href="[Twitter URL]"><img src="images/net/twitter.png" alt="Twitter"></a>
+                    <a href="[Website URL]"><img src="images/net/internet.png" alt="Website"></a>
+                </div>
+                <!-- Optional QR code -->
+                <img src="images/net/qr-code.png" alt="Church Website QR Code">
+            </div>
+            <!-- Optional congregation photo -->
+            <img src="images/net/congregation.jpg" alt="Congregation Worship">
+         </section>
+       
+       
+    </main>
+             
+    <th>
+        <img src="images/net/qr-code.png" alt="Church Website QR Code">
+    <img src="images/net/congregation.jpg" alt="Congregation Worship">
+    </th>

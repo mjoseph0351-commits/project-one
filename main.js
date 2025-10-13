@@ -70,3 +70,67 @@ window.addEventListener('DOMContentLoaded', function() {
     });
     observer.observe(document.body, { childList: true, subtree: true });
 });
+
+// Enhanced Dropdown Menu Functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    dropdowns.forEach(dropdown => {
+        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+        // Toggle dropdown visibility on click
+        dropdown.addEventListener('click', (e) => {
+            e.preventDefault();
+            const isVisible = dropdownMenu.style.display === 'block';
+            closeAllDropdowns(); // Close other open dropdowns
+            dropdownMenu.style.display = isVisible ? 'none' : 'block';
+            dropdownMenu.style.opacity = isVisible ? '0' : '1';
+            dropdownMenu.style.transform = isVisible ? 'translateY(-10px)' : 'translateY(0)';
+        });
+
+        // Close dropdown if clicked outside
+        document.addEventListener('click', (e) => {
+            if (!dropdown.contains(e.target)) {
+                dropdownMenu.style.display = 'none';
+                dropdownMenu.style.opacity = '0';
+                dropdownMenu.style.transform = 'translateY(-10px)';
+            }
+        });
+
+        // Close dropdown on Escape key press
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                dropdownMenu.style.display = 'none';
+                dropdownMenu.style.opacity = '0';
+                dropdownMenu.style.transform = 'translateY(-10px)';
+            }
+        });
+
+        // Keyboard navigation within dropdown
+        const dropdownItems = dropdownMenu.querySelectorAll('a');
+        dropdown.addEventListener('keydown', (e) => {
+            const currentIndex = Array.from(dropdownItems).indexOf(document.activeElement);
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                const nextIndex = (currentIndex + 1) % dropdownItems.length;
+                dropdownItems[nextIndex].focus();
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                const prevIndex = (currentIndex - 1 + dropdownItems.length) % dropdownItems.length;
+                dropdownItems[prevIndex].focus();
+            } else if (e.key === 'Enter') {
+                document.activeElement.click();
+            }
+        });
+    });
+
+    // Helper function to close all dropdowns
+    function closeAllDropdowns() {
+        dropdowns.forEach(dropdown => {
+            const menu = dropdown.querySelector('.dropdown-menu');
+            menu.style.display = 'none';
+            menu.style.opacity = '0';
+            menu.style.transform = 'translateY(-10px)';
+        });
+    }
+});
