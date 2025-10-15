@@ -1258,7 +1258,10 @@ main {
     }
 }
 
-/* Disable the left sidebar completely */
-.sidebar {
-    display: none !important; /* Ensure the sidebar is hidden */
+/* Disable conflicting sidebar styles */
+.sidebar,
+.sidebar.collapsed,
+.sidebar-toggle,
+.sidebar-widgets {
+    display: none !important; /* Ensure all sidebar elements are hidden */
 }
