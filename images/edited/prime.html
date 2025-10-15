@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Launching the Deaf Ministry | Gitimbine United Methodist Church</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
     <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -148,37 +147,47 @@
     <footer>
         <p>&copy; 2025 Gitimbine United Methodist Church. All rights reserved.</p>
     </footer>
-</body>
+    <!-- Add widget icon and right sidebar structure -->
+    <div class="widget-icon">☰</div>
+    <div class="right-side">
+        <!-- Add content for the right sidebar here -->
+        <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+        </ul>
+    </div>
 
-<!-- Interactive Dashboard Section -->
-<section class="dashboard">
-    <h2>Church Dashboard</h2>
-    <div class="dashboard-cards">
-        <div class="dashboard-card" id="attendance-card">
-            <h3>Attendance</h3>
-            <div class="dashboard-chart" id="attendance-chart">
-                <canvas id="attendanceChartCanvas" width="220" height="120"></canvas>
+    <!-- Interactive Dashboard Section -->
+    <section class="dashboard">
+        <h2>Church Dashboard</h2>
+        <div class="dashboard-cards">
+            <div class="dashboard-card" id="attendance-card">
+                <h3>Attendance</h3>
+                <div class="dashboard-chart" id="attendance-chart">
+                    <canvas id="attendanceChartCanvas" width="220" height="120"></canvas>
+                </div>
+            </div>
+            <div class="dashboard-card" id="events-card">
+                <h3>Upcoming Events</h3>
+                <ul id="events-list">
+                    <li>[Event Placeholder]</li>
+                </ul>
+            </div>
+            <div class="dashboard-card" id="volunteers-card">
+                <h3>Volunteer Sign-ups</h3>
+                <div id="volunteer-signup">[Signup Placeholder]</div>
+            </div>
+            <div class="dashboard-card" id="donations-card">
+                <h3>Donations</h3>
+                <div id="donation-stats">[Donation Stats Placeholder]</div>
+            </div>
+            <div class="dashboard-card" id="announcements-card">
+                <h3>Announcements</h3>
+                <div id="announcements">[Announcement Placeholder]</div>
             </div>
         </div>
-        <div class="dashboard-card" id="events-card">
-            <h3>Upcoming Events</h3>
-            <ul id="events-list">
-                <li>[Event Placeholder]</li>
-            </ul>
-        </div>
-        <div class="dashboard-card" id="volunteers-card">
-            <h3>Volunteer Sign-ups</h3>
-            <div id="volunteer-signup">[Signup Placeholder]</div>
-        </div>
-        <div class="dashboard-card" id="donations-card">
-            <h3>Donations</h3>
-            <div id="donation-stats">[Donation Stats Placeholder]</div>
-        </div>
-        <div class="dashboard-card" id="announcements-card">
-            <h3>Announcements</h3>
-            <div id="announcements">[Announcement Placeholder]</div>
-        </div>
-    </div>
-</section>
+    </section>
+    <script src="main.js"></script>
 </body>
 </html>

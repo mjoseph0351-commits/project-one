@@ -138,3 +138,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// JavaScript to toggle the right sidebar visibility
+const widgetIcon = document.querySelector('.widget-icon');
+const rightSide = document.querySelector('.right-side');
+
+if (widgetIcon && rightSide) {
+    widgetIcon.addEventListener('click', () => {
+        rightSide.classList.toggle('open'); // Toggle the 'open' class to show/hide the sidebar
+    });
+}
