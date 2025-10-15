@@ -175,3 +175,157 @@
         <img src="images/net/qr-code.png" alt="Church Website QR Code">
     <img src="images/net/congregation.jpg" alt="Congregation Worship">
     </th>
+
+    @media (max-width: 768px) {
+    .sidebar {
+        width: 100vw;
+        height: 56px;
+        flex-direction: row;
+        align-items: center;
+        bottom: 0;
+        top: auto;
+        left: 0;
+        right: 0;
+        transition: height 0.3s, width 0.3s;
+        display: none;
+    }
+    .sidebar-widgets {
+        flex-direction: row;
+        gap: 10px;
+        margin: 0 0 0 16px;
+    }
+    .sidebar-toggle {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Topbar adjustments */
+    .topbar {
+        flex-direction: column;
+        height: auto;
+        padding: 8px;
+    }
+    .topbar-title {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .topbar-links {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    /* Sidebar adjustments */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        transform: none;
+        margin: 16px 0;
+    }
+    .sidebar-widgets {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* General body adjustments */
+    body {
+        padding-top: 0;
+    }
+
+    /* Front cover adjustments */
+    .front-cover {
+        text-align: center;
+        padding: 16px;
+    }
+    .front-cover img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .topbar-links {
+        gap: 24px;
+    }
+    .sidebar {
+        width: 180px;
+    }
+    .front-cover img {
+        max-width: 80%;
+    }
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 2%;
+    }
+    .back-cover {
+        margin: 30px 2%;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cover-title h2 {
+        font-size: 1.5rem;
+    }
+    .panel {
+        padding: 20px 8px;
+        max-width: 100%;
+    }
+    .back-cover {
+        padding: 20px 5px;
+    }
+}
+@media (max-width: 900px) {
+    .dashboard-cards {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .dashboard {
+        margin: 30px 2%;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+  .back-cover {
+    padding: 20px;
+  }
+
+  .back-cover h2 {
+    font-size: 1.6rem;
+  }
+
+  .back-cover h3 {
+    font-size: 1.2rem;
+  }
+
+  .back-cover p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .programs li img {
+    max-width: 100%;
+  }
+
+  .programs li strong {
+    font-size: 1rem;
+  }
+
+  .programs li p {
+    font-size: 0.9rem;
+  }
+}

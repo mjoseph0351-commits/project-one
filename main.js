@@ -88,6 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
             dropdownMenu.style.transform = isVisible ? 'translateY(-10px)' : 'translateY(0)';
         });
 
+        dropdown.setAttribute('aria-haspopup', 'true');
+            dropdown.setAttribute('aria-expanded', isVisible ? 'true' : 'false');
+
+
         // Close dropdown if clicked outside
         document.addEventListener('click', (e) => {
             if (!dropdown.contains(e.target)) {
