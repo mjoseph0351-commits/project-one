@@ -1257,3 +1257,8 @@ main {
         transform: translateX(0); /* Reveal the sidebar */
     }
 }
+
+/* Disable the left sidebar completely */
+.sidebar {
+    display: none !important; /* Ensure the sidebar is hidden */
+}
