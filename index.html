@@ -19,6 +19,7 @@
             <li class="topbar-link"><a href="events.html">Events</a></li>
             
         </ul>
+        <div class="widget-icon" id="topbarToggle">☰</div>
     </nav>
     <!-- Collapsible Sidebar Dashboard -->
     <nav id="sidebar" class="sidebar collapsed">
@@ -92,7 +93,7 @@
             <p>
                 Name: Dr.shadrack kirema <br>
                 Phone: 0723659555<br>
-                Email: mucembijoel6@gmail.com <br>
+                Email: ministryumc@gitimbineunitedmethodist.org <br>
                 <div class="info-container">
                     <div class="info-text">
                         Where is this church located?
@@ -204,19 +205,27 @@
         <p>&copy; 2025 Gitimbine United Methodist Church. All rights reserved.</p>
     </footer>
 
-    <!-- Add widget icon and right sidebar structure -->
-    <div class="widget-icon">☰</div>
-    <div class="right-side">
-        <!-- Add content for the right sidebar here -->
-        <ul>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
-        </ul>
-    </div>
+    
 
     <!-- Ensure the JavaScript file is linked -->
     <script src="main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const panels = document.querySelectorAll('.panel');
+        let maxHeight = 0;
+
+        panels.forEach(panel => {
+            const panelHeight = panel.offsetHeight;
+            if (panelHeight > maxHeight) {
+                maxHeight = panelHeight;
+            }
+        });
+
+        panels.forEach(panel => {
+            panel.style.height = `${maxHeight}px`;
+        });
+    });
+</script>
 </body>
 
 </html>

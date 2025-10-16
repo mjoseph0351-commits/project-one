@@ -148,3 +148,13 @@ if (widgetIcon && rightSide) {
         rightSide.classList.toggle('open'); // Toggle the 'open' class to show/hide the sidebar
     });
 }
+
+// JavaScript to toggle the visibility of the topbar links
+document.addEventListener('DOMContentLoaded', () => {
+    const topbarToggle = document.getElementById('topbarToggle');
+    const topbarLinks = document.querySelector('.topbar-links');
+
+    topbarToggle.addEventListener('click', () => {
+        topbarLinks.classList.toggle('open');
+    });
+});
