@@ -1,150 +1,4 @@
-/* Topbar Styles */
-.topbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: rgba(0, 121, 107, 0.85);
-    z-index: 1100;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.12);
-    transition: all 0.3s ease;
-}
 
-.topbar-logo {
-    height: 40px;
-    width: auto;
-    margin-left: 18px;
-    margin-right: 24px;
-    border-radius: 6px;
-    vertical-align: middle;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-}
-
-.topbar-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-    vertical-align: middle;
-    display: inline-block;
-    text-align: center;
-    line-height: 1.5;
-    margin: 16px 0;
-}
-
-.topbar-links {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0 auto;
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-}
-
-/* Adjustments for topbar-link to fit comfortably */
-.topbar-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 8px 16px;
-    border-radius: 6px;
-    transition: background 0.2s, color 0.2s;
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow: hidden; /* Hide overflow content */
-    text-overflow: ellipsis; /* Add ellipsis for overflow text */
-}
-
-/* Ensure spacing on the right side */
-.topbar-links {
-    margin-right: 16px; /* Add allowance on the right side */
-}
-
-/* Adjustments for smaller screens */
-@media (max-width: 768px) {
-    .topbar {
-        flex-direction: column;
-        height: auto;
-        padding: 8px;
-    }
-
-    .topbar-title {
-        font-size: 1.2rem;
-        margin-bottom: 8px;
-        display: none !important;
-    }
-
-    .topbar-links {
-        flex-direction: column;
-        gap: 16px;
-        margin-right: 16px; /* Maintain right-side allowance */
-        padding: 8px;
-        border-radius: 8px;
-    }
-}
-
-/* Adjustments for tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .topbar-links {
-        gap: 24px;
-    }
-}
-
-.topbar-link a:hover {
-    background: rgba(0,0,0,0.10);
-    color: #fff;
-    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.25);
-    border-bottom: 3px solid #000;
-}
-
-.topbar-link a.active {
-  background: rgba(0,0,0,0.10);
-  color: #fff;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.25);
-  border-bottom: 3px solid #000;
-}
-
-/* Adjust topbar-links for smaller screens */
-@media (max-width: 768px) {
-    .topbar-links {
-        flex-direction: column; /* Stack links vertically */
-        gap: 16px; /* Add spacing between links */
-        margin-right: 16px; /* Add allowance on the right side */
-        padding: 8px; /* Add padding for comfortable spacing */
-        border-radius: 8px; /* Add a slight radius for aesthetics */
-    }
-}
-
-/* Drop down */
-/* Container for dropdown */
-.topbar-link-dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown toggle link */
-.topbar-link-dropdown > a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 8px 16px;
-  border-radius: 6px;
-  transition: background 0.2s, color 0.2s;
-}
-
-/* Hover effect for main link */
-.topbar-link-dropdown > a:hover {
-  background: rgba(0,0,0,0.10);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
-  border-bottom: 3px solid #000;
-}
 
 /* Dropdown menu hidden by default */
 .dropdown-menu {
@@ -279,23 +133,7 @@ body {
 
 /* For screens smaller than 768px (mobile devices) */
 @media (max-width: 768px) {
-    .topbar {
-        flex-direction: column;
-        height: auto;
-        padding: 8px;
-    }
-    .topbar-title {
-        font-size: 1.2rem;
-        margin-bottom: 8px;
-    }
-    .topbar-links {
-        flex-direction: column;
-        gap: 16px;
-        margin-right: 16px; /* Maintain right-side allowance */
-        padding: 8px;
-        border-radius: 8px;
-    }
-
+    
     .dropdown-menu {
         width: 100%; /* Ensure dropdown spans full width */
     }
@@ -316,24 +154,12 @@ body {
         padding-top: 0;
     }
 
-    /* Replace topbar-title with logo on smaller screens */
-    .topbar-title {
-        display: none !important; /* Hide the title */
-    }
-
-    .topbar-logo {
-        display: block !important; /* Ensure the logo is visible */
-        height: 40px; /* Adjust logo size */
-        width: auto;
-        margin: 0 auto; /* Center the logo */
-    }
+   
 }
 
 /* For screens between 768px and 1024px (tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .topbar-links {
-        gap: 24px;
-    }
+   
     .sidebar {
         width: 180px;
     }
@@ -554,31 +380,6 @@ footer {
     border-radius: 4px;
 }
 
-.topbar-link:hover .dropdown {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Accessibility improvements */
-.topbar-link a {
-    outline: none;
-}
-
-.topbar-link a:focus + .dropdown,
-.dropdown a:focus {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Show dropdown on hover */
-.topbar-link-dropdown:hover .dropdown-menu {
-  display: flex; /* Make the dropdown visible */
-  opacity: 1; /* Ensure full visibility */
-  transform: translateY(0); /* Reset any transform effects */
-  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
-}
 
 
 
@@ -713,38 +514,6 @@ footer {
 }
 
 
-/* Topbar Styles */
-.topbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(0, 121, 107, 0.85);
-    border-bottom: 1px solid #ccc;
-}
-
-.topbar-title {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.topbar-links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.topbar-link a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-}
-
-.topbar-link a:hover {
-    text-decoration: underline;
-}
 
 /* Sidebar Styles */
 .sidebar {
@@ -1002,25 +771,7 @@ main {
 
 /* Medium screens: max-width 768px */
 @media (max-width: 768px) {
-  /* Topbar */
-  .topbar {
-    flex-direction: column;
-    height: auto;
-    padding: 8px;
-  }
-
-  .topbar-title {
-    font-size: 1.2rem;
-    margin-bottom: 8px;
-  }
-
-  .topbar-links {
-    flex-direction: column;
-    gap: 16px;
-    margin-right: 16px; /* Maintain right-side allowance */
-    padding: 8px;
-    border-radius: 8px;
-  }
+  
 
   /* Dropdown menu */
   .dropdown-menu {
@@ -1078,42 +829,12 @@ main {
     font-size: 1rem;
   }
 
-  /* Adjust topbar-title for smaller screens */
-  .topbar-title {
-    display: flex;
-    flex-direction: column; /* Stack words vertically */
-    align-items: center; /* Center-align the text */
-    justify-content: center;
-    text-align: center; /* Ensure text is centered */
-    font-size: 1rem; /* Adjust font size for readability */
-    line-height: 1.5; /* Add spacing between words */
-    margin: 16px 0; /* Add spacing around the title */
-    word-wrap: break-word; /* Allow breaking into manageable words */
-    overflow-wrap: break-word; /* Ensure long words break properly */
-  }
-
-  .topbar-title span {
-    display: block; /* Ensure each word is on its own line */
-  }
-
-  /* Ensure topbar-title is hidden on smaller screens */
-  .topbar-title {
-    display: none !important; /* Force hiding the title */
-  }
-
-  .topbar-logo {
-    display: block !important; /* Ensure the logo is visible */
-    height: 40px; /* Adjust logo size */
-    width: auto;
-    margin: 0 auto; /* Center the logo */
-  }
+  
 }
 
 /* Large tablets: 769px to 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .topbar-links {
-    gap: 24px;
-  }
+  
 
   .sidebar {
     width: 180px;
@@ -1150,50 +871,7 @@ main {
 
 /* Transform top bar into a vertical sidebar on the right */
 @media (max-width: 768px) {
-    .topbar {
-        position: fixed;
-        top: 0;
-        right: 0; /* Ensure it stays on the right side */
-        left: unset; /* Remove any left positioning */
-        width: 56px; /* Sidebar width */
-        height: 100%; /* Full height for sidebar */
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        justify-content: flex-start; /* Align items to the top */
-        padding-top: 16px; /* Add spacing at the top */
-    }
-
-    .topbar-title {
-        writing-mode: vertical-rl; /* Rotate text vertically */
-        transform: rotate(180deg); /* Adjust text orientation */
-        margin-bottom: 16px;
-        word-wrap: break-word; /* Allow breaking into manageable words */
-        overflow-wrap: break-word; /* Ensure long words break properly */
-        text-align: center; /* Center-align the title */
-        font-size: 1rem; /* Adjust font size for readability */
-    }
-
-    .topbar-title {
-        display: flex;
-        flex-direction: column; /* Stack words vertically */
-        align-items: center; /* Center-align the text */
-        justify-content: center;
-        text-align: center; /* Ensure text is centered */
-        font-size: 1rem; /* Adjust font size for readability */
-        line-height: 1.5; /* Add spacing between words */
-        margin: 16px 0; /* Add spacing around the title */
-        writing-mode: unset; /* Remove rotation */
-        transform: none; /* Reset any transformations */
-    }
-
-    .topbar-title span {
-        display: block; /* Ensure each word is on its own line */
-    }
-
-    .topbar-links {
-        flex-direction: column; /* Stack links vertically */
-        gap: 16px;
-    }
+    
 }
 
 /* Collapsible right side for smaller screens */
@@ -1264,4 +942,391 @@ main {
 .sidebar-toggle,
 .sidebar-widgets {
     display: none !important; /* Ensure all sidebar elements are hidden */
+}
+
+/* ───────────────────────────────────────────────
+   TOPBAR BASE STYLES
+──────────────────────────────────────────────── */
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 121, 107, 0.85);
+  z-index: 1100;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* ───────────────────────────────────────────────
+   LOGO & TITLE
+──────────────────────────────────────────────── */
+.topbar-logo {
+  height: 40px;
+  width: auto;
+  margin-left: 18px;
+  margin-right: 24px;
+  border-radius: 6px;
+  vertical-align: middle;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+}
+
+/* Desktop / default: keep title on a single line */
+.topbar-title {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  margin: 16px 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Container helper for centering title when needed */
+.topbar-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* ───────────────────────────────────────────────
+   NAVIGATION LINKS
+──────────────────────────────────────────────── */
+.topbar-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin-right: 16px;
+}
+
+.topbar-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: none;
+}
+
+.topbar-link a:hover,
+.topbar-link a.active {
+  background: rgba(0, 0, 0, 0.10);
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid #000;
+}
+
+/* ───────────────────────────────────────────────
+   DROPDOWN MENU
+──────────────────────────────────────────────── */
+.topbar-link-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.topbar-link-dropdown > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.topbar-link-dropdown > a:hover {
+  background: rgba(0, 0, 0, 0.10);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid #000;
+}
+
+.topbar-link-dropdown:hover .dropdown-menu,
+.topbar-link a:focus + .dropdown,
+.dropdown a:focus {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* ───────────────────────────────────────────────
+   COLLAPSED SIDEBAR STATE (applies when .topbar--collapsed is added)
+   Use JS or server logic to add .topbar--collapsed when switching
+   to the narrow right-sidebar layout (width: 56px).
+──────────────────────────────────────────────── */
+.topbar.topbar--collapsed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: unset;
+  width: 56px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 16px;
+  overflow-y: auto;
+  background: rgba(0, 121, 107, 0.85);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  border-bottom: none;
+}
+
+/* Ensure topbar is full width and horizontal above 760px */
+@media (min-width: 761px) {
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .topbar-logo {
+    margin-left: 18px;
+    margin-right: 24px;
+    height: 40px;
+  }
+
+  .topbar-links {
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 16px;
+    width: auto;
+    justify-content: center;
+  }
+
+  .topbar-link a {
+    padding: 8px 16px;
+    font-size: 1.1rem;
+    width: auto;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  .topbar-title {
+    font-size: 1.35rem;
+    margin: 16px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .topbar-title span {
+    display: inline;
+  }
+}
+
+/* Automatically add .topbar--collapsed below 760px */
+@media (max-width: 760px) {
+  .topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: unset;
+    width: 56px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 16px;
+    overflow-y: auto;
+    background: rgba(0, 121, 107, 0.85);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+    border-bottom: none;
+  }
+
+  .topbar-logo {
+    display: block !important;
+    margin: 0 auto 12px;
+    height: 36px;
+  }
+
+  .topbar-title {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 1.25;
+    margin: 12px 0;
+    letter-spacing: 0.2px;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .topbar-title span {
+    display: block;
+  }
+
+  .topbar-links {
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .topbar-link a {
+    text-align: center;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.topbar.topbar--collapsed .topbar-logo {
+  display: block !important;
+  margin: 0 auto 12px;
+  height: 36px;
+}
+
+/* In collapsed state allow title to wrap word-by-word.
+   Prefer semantic HTML that wraps words in spans for perfect control:
+   <div class="topbar-title"><span>Word1</span><span>Word2</span>...</div>
+*/
+.topbar.topbar--collapsed .topbar-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  line-height: 1.25;
+  margin: 12px 0;
+  letter-spacing: 0.2px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* If using spans per word, make them block-level in collapsed state */
+.topbar.topbar--collapsed .topbar-title span {
+  display: block;
+}
+
+/* Collapsed links stacked vertically */
+.topbar.topbar--collapsed .topbar-links {
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.topbar.topbar--collapsed .topbar-link a {
+  text-align: center;
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ───────────────────────────────────────────────
+   RESPONSIVE: MOBILE (<=768px) fallback (if you do not toggle .topbar--collapsed)
+   This preserves previous mobile stacking behavior while keeping title single-line
+   until .topbar--collapsed is applied.
+──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    background: rgba(0, 121, 107, 0.95);
+    overflow-y: auto;
+  }
+
+  .topbar-logo {
+    display: block !important;
+    margin: 0 auto 12px;
+    height: 36px;
+  }
+
+  /* Mobile: allow wrapping (word-by-word only when .topbar--collapsed or when words forced) */
+  .topbar-title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 1.4;
+    margin: 12px 0;
+    letter-spacing: 0.5px;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .topbar-links {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .topbar-link a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+
+  .topbar-link-dropdown {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* ───────────────────────────────────────────────
+   RESPONSIVE: TABLETS (769px–1024px)
+──────────────────────────────────────────────── */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .topbar-links {
+    gap: 24px;
+  }
 }
